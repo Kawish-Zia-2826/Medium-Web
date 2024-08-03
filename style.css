@@ -1,0 +1,58 @@
+*{
+    /* border: 2px solid black; */
+}
+
+
+
+
+
+.custom-font {
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color:lightgreen;
+    font-size: large;
+    text-transform: capitalize;
+}   
+.btn-pill{
+    border-radius: 50px;
+}
+.gradient-background {
+        background: linear-gradient(to right, #ffff99, #ffcc00); /* Light yellow to dark yellow */
+       
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .gradient-background > p{
+      margin: 1rem 0;
+    }
+    .section > h2 {
+font-size: 7rem;
+line-height: 115px;
+}
+.col-sm-8.section {
+display: grid;
+justify-content: center;
+align-content: center;
+justify-items: start;
+}
+
+
+footer > ul{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+
+}
+footer ul li{
+gap: 20px;
+}
+a{
+color: black !important;
+}
+nav .navbar-brand{
+font-size: 2rem;
+}
